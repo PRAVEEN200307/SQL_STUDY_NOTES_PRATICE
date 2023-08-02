@@ -147,7 +147,7 @@ FIRST VALUE
  LEAD/LAG
  --------
  
- LEAD
+ LEAD ----ex lead before payment,lag--after payment
  -----
    SELECT NAME,COUNTRY,
    COUNT(*),

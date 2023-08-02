@@ -17,7 +17,8 @@
           
             DROP 
             ----
-              ALTER TABLE <table_name> drop constraint <column_name>
+             alter table <table_name>alter column <colum_name> drop not null
+    
      
       UNIQUE AND PRIMARY KEY AND REFERNCES
       -------------------------------------
@@ -38,3 +39,19 @@
               ALTER TABLE <table_name> ADD CONSTRAINT <constraint_name> FOREIGN KEY(column_name1,column_name2) REFERENCES(TABLE_NAME(COLUMN_NAME))
                       alter table demo add constraint  fk_demo foreign key(address_id)
                       references address(address_id)
+
+          default and not null
+        ----------------------------
+              alter table mytable alter column age set  default 20
+
+           ALTER TABLE <table_name> drop constraint <column_name>
+
+
+          ALTER TABLE table_name
+          DROP CONSTRAINT constraint_name;
+
+
+
+
+
+

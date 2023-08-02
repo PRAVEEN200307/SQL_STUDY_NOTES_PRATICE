@@ -377,10 +377,6 @@ challenge
 
 
 
-
-
-
-
 Involved in writing PL/SQL Stored Procedures, Functions, Cursors, Triggers and Package.
 Written complex SQL (Sub queries and Join conditions), in PL/SQL
 

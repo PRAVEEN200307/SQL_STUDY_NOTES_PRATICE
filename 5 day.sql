@@ -119,7 +119,7 @@ END AS SEASON,COUNT(*)
      if,one movie can be in multiple categories it gets the higher tier assigned.
 
  ANS:
-   SELECT title,
+SELECT title,
  CASE
   WHEN RATING='PG'OR RATING='PG-13' OR LENGTH>210  THEN 'GREAT RATING OR LONG (TIER 1)'
   WHEN DESCRIPTION LIKE ('%Drama%')and length>90 then 'Long drama (tier 2)'
